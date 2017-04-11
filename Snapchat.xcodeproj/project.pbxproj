@@ -14,6 +14,7 @@
 		D6B09D1E1E870B6E00AA007C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B09D1C1E870B6E00AA007C /* Main.storyboard */; };
 		D6B09D201E870B6E00AA007C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B09D1F1E870B6E00AA007C /* Assets.xcassets */; };
 		D6B09D231E870B6E00AA007C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B09D211E870B6E00AA007C /* LaunchScreen.storyboard */; };
+		D6B355FD1E9D56C000936E08 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B355FC1E9D56C000936E08 /* SnapsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		D6B09D1F1E870B6E00AA007C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6B09D221E870B6E00AA007C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B09D241E870B6E00AA007C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B355FC1E9D56C000936E08 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		DEA75FC08506E9D70410D357 /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				D6B09D181E870B6E00AA007C /* AppDelegate.swift */,
 				D6B09D1A1E870B6E00AA007C /* SignInViewController.swift */,
 				D6B09D1C1E870B6E00AA007C /* Main.storyboard */,
+				D6B355FC1E9D56C000936E08 /* SnapsViewController.swift */,
 				D6B09D1F1E870B6E00AA007C /* Assets.xcassets */,
 				D6B09D211E870B6E00AA007C /* LaunchScreen.storyboard */,
 				D6B09D241E870B6E00AA007C /* Info.plist */,
@@ -218,6 +221,7 @@
 			files = (
 				D6B09D1B1E870B6E00AA007C /* SignInViewController.swift in Sources */,
 				D6B09D191E870B6E00AA007C /* AppDelegate.swift in Sources */,
+				D6B355FD1E9D56C000936E08 /* SnapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
